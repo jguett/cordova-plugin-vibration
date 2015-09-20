@@ -71,12 +71,9 @@
 
     <!-- windows -->
     <platform name="windows">
-        <js-module src="src/windows/VibrationProxy.js" name="VibrationProxy">
+        <js-module src="www/windows/VibrationProxy.js" name="VibrationProxy">
             <runs />
         </js-module>
-
-        <framework src="src/windows/Vibration/Vibration.csproj" target="phone"
-            type="projectReference" custom="true" versions="&lt;10.0.0" />
     </platform>
 
     <!-- android -->
